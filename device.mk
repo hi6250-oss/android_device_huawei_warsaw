@@ -14,6 +14,7 @@ $(call inherit-product, device/huawei/hi6250-common/hi6250.mk)
 $(call inherit-product, vendor/huawei/warsaw/warsaw-vendor.mk)
 
 # Display
+TARGET_SCREEN_DENSITY := 480
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
