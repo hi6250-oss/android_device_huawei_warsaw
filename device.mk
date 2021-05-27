@@ -10,6 +10,9 @@ DEVICE_PATH := device/huawei/warsaw
 ## Inherit common device
 $(call inherit-product, device/huawei/hi6250-8-common/hi6250.mk)
 
+## Inherit vendor blobs
+$(call inherit-product, vendor/huawei/warsaw/warsaw-vendor.mk)
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 TARGET_SCREEN_HEIGHT := 1920
