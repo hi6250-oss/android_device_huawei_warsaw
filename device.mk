@@ -18,5 +18,9 @@ TARGET_SCREEN_DENSITY := 480
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/init/CameraDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/CameraDaemon.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
