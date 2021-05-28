@@ -17,5 +17,9 @@ $(call inherit-product, vendor/huawei/warsaw/warsaw-vendor.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    init.hisi.odm.rc
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
