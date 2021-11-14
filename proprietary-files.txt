@@ -1,0 +1,17 @@
+#
+# Vendor Blobs for warsaw
+#
+
+# Device
+vendor/etc/cfg_warsaw_al00_hisi.ini
+vendor/etc/cfg_warsaw_l03t_hisi.ini
+vendor/etc/cfg_warsaw_lx1a_hisi.ini
+vendor/etc/cfg_warsaw_lx1_hisi.ini
+vendor/etc/cfg_warsaw_lx2_hisi.ini
+vendor/etc/cfg_warsaw_lx2j_hisi.ini
+vendor/etc/cfg_warsaw_lx3_hisi.ini
+vendor/etc/cfg_warsaw_tl00_hisi.ini
+
+# Nfc
+product/etc/nfc/libnfc_brcm_was_L21.conf:vendor/etc/libnfc-brcm.conf
+product/etc/nfc/libnfc_nxp_was_L21.conf:vendor/etc/libnfc-nxp.conf
