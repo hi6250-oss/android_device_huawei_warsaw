@@ -18,7 +18,7 @@
 DEVICE_PATH := device/huawei/warsaw
 
 ## Include common BoardConfig
-include device/huawei/hi6250-common/BoardConfigCommon.mk
+include device/huawei/hi6250-8-common/BoardConfigCommon.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 25165824 # mmcblk0p30 (24576*1024)
