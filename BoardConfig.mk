@@ -10,6 +10,9 @@ DEVICE_PATH := device/huawei/warsaw
 ## Include common BoardConfig
 include device/huawei/hi6250-8-common/BoardConfigCommon.mk
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := hi6250,warsaw
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 25165824 # mmcblk0p30 (24576*1024)
 BOARD_CACHEIMAGE_PARTITION_SIZE := 134217728 # mmcblk0p42 (131072*1024)
